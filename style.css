@@ -54,3 +54,10 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* Hero Style Start */
+.hero {
+    background-image: url("assets/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
