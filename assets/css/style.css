@@ -190,14 +190,43 @@
   .steps { 
     background: #fce138;
   }
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .step h4{
+    color: #024e76;
+    font-size: 28px;
+  }
   
   .step h3 {
+    flex: 1 30%;
     color: #024e76;
     font-size: 46px;
   }
-  .steps p {
+  .step-img img {
+    max-width: 100%;
+  }
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  .step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .step-text {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
+    flex: 12;
   }
   /* WHAT YOU DO STYLES END */
   
