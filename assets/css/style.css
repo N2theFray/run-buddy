@@ -21,6 +21,10 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
   }
   
   header h1 {
@@ -95,11 +99,12 @@
   .hero {
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-position: 80%;
+    background-attachment: fixed;
   }
   
   .hero-form {
@@ -365,6 +370,7 @@
    header {
      padding-bottom: 0;
      justify-content: center;
+     position: relative;
    }
    header h1 {
      width: 100%;
