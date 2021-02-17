@@ -18,6 +18,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
   }
   
   header h1 {
@@ -25,18 +28,20 @@
     margin: 0;
     font-size: 36px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
   }
   
   header a {
     text-decoration: none;
     color: #fce138;
+
   }
   
   header nav {
     margin: 7px 0;
   }
   
-  header nav ul li {
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
@@ -48,6 +53,7 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
   }
   
   /* HEADER / NAVBAR STYLES END */
@@ -98,11 +104,13 @@
   
   .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, .8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 15px;
   }
   
   .hero-form h3 {
@@ -121,6 +129,7 @@
     color: #024e76;
     width: 100%;
     margin-bottom: 15px; 
+    border-radius: 10px;
   }
   
   .hero-form label {
@@ -133,6 +142,7 @@
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
   } 
   .hero-cta {
     width: 35%;
@@ -146,6 +156,7 @@
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5)
   }
 
   /* HERO STYLES END */
@@ -322,6 +333,7 @@
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
   }
   .contact-form button {
     width: 100%;
@@ -331,6 +343,7 @@
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
   }
   
   /* REACH OUT STYLES END */
