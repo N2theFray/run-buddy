@@ -59,6 +59,13 @@
     font-size: 1.5vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
   }
+  /* hover effect  */
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+    }
   
   /* HEADER / NAVBAR STYLES END */
   
@@ -135,6 +142,12 @@
     width: 100%;
     margin-bottom: 15px; 
     border-radius: 10px;
+    background-color: rgba(255,255,255,.75);
+  }
+  /* form focus */
+  .form-input:focus {
+    background-color: rgba(255,255,255,1);
+    outline: none;
   }
   
   .hero-form label {
@@ -149,6 +162,10 @@
     font-size: 16px;
     border-radius: 10px;
   } 
+  /* hero hover */
+  .hero-form button:hover {
+    background-color: #39a6b2;
+  }
   .hero-cta {
     width: 35%;
     text-align: right;
@@ -211,11 +228,14 @@
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #39a6b2;
+  }
+  .step:last-child {
+    border-bottom:none;
   }
   .step h4{
     color: #024e76;
@@ -339,7 +359,13 @@
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255,255,255,.75);
   }
+  .contact-form textarea:focus, .contact-form input:focus {
+    background-color: rgba(255,255,255,1);
+    outline: none;
+  }
+
   .contact-form button {
     width: 100%;
     border: none;
@@ -349,6 +375,11 @@
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+  }
+  /* contact form hover */
+  .contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
   }
   
   /* REACH OUT STYLES END */
