@@ -22,12 +22,12 @@ header h1 {
   display: inline;
   margin: 0;
   font-size: 36px;
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 header nav {
@@ -51,14 +51,14 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
-  background: #fce138;
+  background: var(--primary-color);
   padding: 40px 35px;
   width: 100%;
 }
 
 footer h2 {
   display: inline;
-  color: #024e76;
+  color: var(--secondary-color);
   font-size: 30px;
   margin: 0;
 }
@@ -70,7 +70,7 @@ footer div {
 }
 
 footer a {
-  color: #024e76;
+  color: var(--secondary-color);
 }
 /* END FOOTER STYLES */
 
@@ -89,11 +89,11 @@ section {
 }
 
 .hero-form {
-  border: 3px solid #024e76;
-  background-color: #fce138;
+  border: 3px solid var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 20px;
   width: 500px;
-  color: #024e76;
+  color: var(--secondary-color);
   position: absolute;
   bottom: 120px;
   right: 140px;
@@ -108,11 +108,11 @@ section {
 }
 
 .form-input {
-  border: 1px solid #024e76;
+  border: 1px solid var(--secondary-color);
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color: var(--secondary-color);
   width: 100%;
   margin-bottom: 15px; 
 }
@@ -122,8 +122,8 @@ section {
 }
 
 .hero-form button {
-  color: #fce138;
-  background-color: #024e76;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -138,11 +138,11 @@ section {
   padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
   margin-bottom: 35px;
-  color: #024e76;
+  color: var(--secondary-color);
 }
 
 .primary-border {
-  border-color: #fce138;
+  border-color: var(--primary-color);
 }
 
 .secondary-border {
@@ -168,7 +168,7 @@ section {
 /* WHAT YOU DO STYLES START */
 .steps { 
   text-align: center;
-  background: #fce138;
+  background: var(--primary-color);
 }
 
 .steps div {
@@ -181,7 +181,7 @@ section {
 } 
 
 .steps h3 {
-  color: #024e76;
+  color: var(--secondary-color);
   font-size: 46px;
   margin-top: 10px;
 }
@@ -204,8 +204,8 @@ section {
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
-  background: #024e76;
-  color: #fce138;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   overflow: auto;
 }
 
@@ -240,11 +240,11 @@ section {
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
-  background: #024e76;
+  background: var(--secondary-color);
 }
 
 .contact h2 {
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 .contact-info iframe {
@@ -262,7 +262,7 @@ height: 400px;
 }
 
 .contact-info h3 {
-  color: #fce138;
+  color: var(--primary-color);
   font-size: 32px;
 }
 
@@ -274,7 +274,7 @@ height: 400px;
 }
 
 .contact-info a {
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 
